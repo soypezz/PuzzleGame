@@ -27,3 +27,7 @@ El juego se ha desarrollado utilizando:
 5. Si deseas jugar de nuevo, haz clic en "Jugar de Nuevo".
 
 ¡Diviértete jugando!
+
+## Captura de pantalla
+
+![Descripción de la imagen](Game.png)
