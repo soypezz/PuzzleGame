@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taken</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <h1>JUEGO DE 15</h1>
+    <p id="description">El juego del 15 o es una cajita de 16 casillas en la cual hay que deslizar
+        las piezas que presentan un número determinado. Tiene su origen en Estados
+        Unidos, en el siglo XIX.</p>
+    <div class="game-buttons">
+        <button id="startButton">¡Comienza a Jugar! <i class="fas fa-arrow-right"></i></button>
+        <button id="restartButton" style="display: none;">Jugar de Nuevo <i class="fas fa-redo-alt"></i></button>
+    </div>
+    <div class="game-container" id="game-container"></div>
+    <div class="timer"><p id="timer" style="display: none;"> <i class="fas fa-clock"></i></p></div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="close">&times;</span>
+        <h2 id="completionTitle">¡Felicidades!</h2>
+        <p>Ha completado el puzzle en <span id="completionMessage"></span></p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Desarrollado por</h3>
+                <p>Marcela Hernández</p>
+            </div>
+            <div>
+                <h3>Universidad del Norte</h3>
+                <p>Parcial II -  Curso de Desarrollo Frontend</p>
+            </div>
+            
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
