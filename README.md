@@ -2,6 +2,8 @@
 
 Este juego es un rompecabezas clásico donde el objetivo es ordenar los números del 1 al 15 deslizando las celdas en un tablero. Al iniciar el juego, se desordena el tablero y el jugador debe deslizar las celdas para ordenar los números.
 
+Link del juego online: https://puzzle-taken-game.netlify.app/
+
 ## Características
 
 - Interfaz gráfica para el usuario (GUI) con celdas deslizables.
